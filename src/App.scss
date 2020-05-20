@@ -2,11 +2,11 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #dc3545;
-  --dark-color: #333333;
-  --light-color: #f4f4f4;
-  --danger-color: #dc3545;
-  --success-color: #28a745;
+  --primary-color: #62C9DD;
+  --dark-color: rgb(58, 51, 53);
+  --light-color: rgb(253, 240, 213);
+  --danger-color: #D81E5B;
+  --success-color: #C6D89C;
 }
 
 * {
@@ -356,24 +356,21 @@ table th {
   width: 100%;
   opacity: 0.9;
   margin-bottom: 1rem;
-}
-
-.navbar ul {
-  display: flex;
-}
-
-.navbar a {
-  color: #fff;
-  padding: 0.45rem;
-  margin: 0 0.25rem;
-}
-
-.navbar a:hover {
-  color: var(--light-color);
-}
-
-.navbar .welcome span {
-  margin-right: 0.6rem;
+  ul {
+    display: flex;
+  }
+  a {
+    color: #fff;
+    padding: 0.45rem;
+    margin: 0 0.25rem;
+    &:hover {
+      color: var(--light-color);
+    }
+  }
+  .welcome span {
+    margin-right: 0.6rem;
+  }
+  
 }
 
 /* Mobile Styles */
