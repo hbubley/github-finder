@@ -14,8 +14,5 @@ const UserItem = ({user: {avatar_url, login, html_url}}) =>  {
         )
 }
 
-UserItem.propTypes = {
-    user: PropTypes.object.isRequired
-}
 
 export default UserItem
