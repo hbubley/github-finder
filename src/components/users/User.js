@@ -1,6 +1,6 @@
 import React, { useEffect, Fragment } from "react";
 import { Link } from "react-router-dom";
-import { Spinner } from "../layout/Spinner";
+import Spinner from "../layout/Spinner";
 import PropTypes from "prop-types";
 import Repos from "../repos/Repos";
 

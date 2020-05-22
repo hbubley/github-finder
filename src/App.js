@@ -6,8 +6,8 @@ import User from "./components/users/User";
 import "./App.scss";
 import axios from "axios";
 import Search from "./components/users/Search";
-import { Alert } from "./components/layout/Alert";
-import { About } from "./components/pages/About";
+import Alert from "./components/layout/Alert";
+import About from "./components/pages/About";
 
 const App = () => {
   const [users, setUsers] = useState([]);
